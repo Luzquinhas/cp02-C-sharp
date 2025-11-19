@@ -1,4 +1,4 @@
-# ?? Sistema de Imobili醨ia - API REST
+# Sistema de Imobili谩ria - API REST
 **RM:** if ([string]::IsNullOrWhiteSpace($rm)) {
 ## ?? Como executar
 ### 1. Restaurar pacotes
@@ -26,18 +26,19 @@ dotnet run
 ```
 http://localhost:5002/swagger
 ```
-## ?? Endpoints
-- **/api/Imovel** - Gerenciamento de im髒eis
+## Endpoints
+- **/api/Imovel** - Gerenciamento de im贸veis
 - **/api/Cliente** - Gerenciamento de clientes
 - **/api/Contrato** - Gerenciamento de contratos
-## ? Entidades Implementadas
-? Im髒el (com endere鏾, tipo, 醨ea, valores, status, etc)
-? Cliente (com CPF/CNPJ 鷑ico, contatos)
-? Contrato (v韓culo entre im髒el e cliente)
-## ?? Recursos
+## Entidades Implementadas
+- Im贸vel (com endere莽o, tipo, 谩rea, valores, status, etc)
+- Cliente (com CPF/CNPJ 煤nico, contatos)
+- Contrato (v铆nculo entre im贸vel e cliente)
+## Recursos
 - CRUD completo para todas as entidades
-- Busca de im髒eis por status e tipo
-- Busca de contratos por cliente ou im髒el
-- Valida珲es de dados
+- Busca de im贸veis por status e tipo
+- Busca de contratos por cliente ou im贸vel
+- Valida莽玫es de dados
 - Migrations configuradas
 - Swagger documentado
+
