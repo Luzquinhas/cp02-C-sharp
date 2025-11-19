@@ -1,6 +1,6 @@
 # Sistema de Imobiliária - API REST
 **RM:** if ([string]::IsNullOrWhiteSpace($rm)) {
-## ?? Como executar
+## Como executar
 ### 1. Restaurar pacotes
 ```bash
 dotnet restore
@@ -41,4 +41,5 @@ http://localhost:5002/swagger
 - Validações de dados
 - Migrations configuradas
 - Swagger documentado
+
 
